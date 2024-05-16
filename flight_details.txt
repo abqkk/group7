@@ -1,8 +1,630 @@
-New York-Paris: 2024-06-01, $500
-New York-Paris: 2024-07-04, $542
-New York-Paris: 2024-07-01, $522
-New York-Tokyo: 2024-06-03, $800
-New York-London: 2024-06-05, $600
-Paris-Tokyo: 2024-06-02, $700
-Paris-London: 2024-06-04, $400
-Tokyo-London: 2024-06-06, $1000
+New York-Paris: 2024-08-04, $1800
+New York-Paris: 2024-08-12, $1850
+New York-Paris: 2024-08-20, $1900
+New York-Tokyo: 2024-08-06, $2200
+New York-Tokyo: 2024-08-14, $2250
+New York-Tokyo: 2024-08-22, $2300
+New York-London: 2024-08-01, $1500
+New York-London: 2024-08-09, $1550
+New York-London: 2024-08-17, $1600
+New York-Los Angeles: 2024-08-03, $1200
+New York-Los Angeles: 2024-08-11, $1250
+New York-Los Angeles: 2024-08-19, $1300
+New York-Sydney: 2024-08-05, $2500
+New York-Sydney: 2024-08-13, $2550
+New York-Sydney: 2024-08-21, $2600
+New York-Beijing: 2024-08-02, $2000
+New York-Beijing: 2024-08-10, $2050
+New York-Beijing: 2024-08-18, $2100
+New York-Rome: 2024-08-07, $1900
+New York-Rome: 2024-08-15, $1950
+New York-Rome: 2024-08-23, $2000
+New York-Dubai: 2024-08-04, $1800
+New York-Dubai: 2024-08-12, $1850
+New York-Dubai: 2024-08-20, $1900
+New York-Moscow: 2024-08-06, $2200
+New York-Moscow: 2024-08-14, $2250
+New York-Moscow: 2024-08-22, $2300
+New York-Singapore: 2024-08-01, $2500
+New York-Singapore: 2024-08-09, $2550
+New York-Singapore: 2024-08-17, $2600
+New York-Toronto: 2024-08-03, $1200
+New York-Toronto: 2024-08-11, $1250
+New York-Toronto: 2024-08-19, $1300
+New York-Berlin: 2024-08-05, $2000
+New York-Berlin: 2024-08-13, $2050
+New York-Berlin: 2024-08-21, $2100
+New York-Seoul: 2024-08-02, $1900
+New York-Seoul: 2024-08-10, $1950
+New York-Seoul: 2024-08-18, $2000
+New York-Istanbul: 2024-08-07, $2300
+New York-Istanbul: 2024-08-15, $2350
+New York-Istanbul: 2024-08-23, $2400
+Paris-New York: 2024-08-04, $1800
+Paris-New York: 2024-08-12, $1850
+Paris-New York: 2024-08-20, $1900
+Paris-Tokyo: 2024-08-06, $2200
+Paris-Tokyo: 2024-08-14, $2250
+Paris-Tokyo: 2024-08-22, $2300
+Paris-London: 2024-08-01, $1500
+Paris-London: 2024-08-09, $1550
+Paris-London: 2024-08-17, $1600
+Paris-Los Angeles: 2024-08-03, $1200
+Paris-Los Angeles: 2024-08-11, $1250
+Paris-Los Angeles: 2024-08-19, $1300
+Paris-Sydney: 2024-08-05, $2500
+Paris-Sydney: 2024-08-13, $2550
+Paris-Sydney: 2024-08-21, $2600
+Paris-Beijing: 2024-08-02, $2000
+Paris-Beijing: 2024-08-10, $2050
+Paris-Beijing: 2024-08-18, $2100
+Paris-Rome: 2024-08-07, $1900
+Paris-Rome: 2024-08-15, $1950
+Paris-Rome: 2024-08-23, $2000
+Paris-Dubai: 2024-08-04, $1800
+Paris-Dubai: 2024-08-12, $1850
+Paris-Dubai: 2024-08-20, $1900
+Paris-Moscow: 2024-08-06, $2200
+Paris-Moscow: 2024-08-14, $2250
+Paris-Moscow: 2024-08-22, $2300
+Paris-Singapore: 2024-08-01, $2500
+Paris-Singapore: 2024-08-09, $2550
+Paris-Singapore: 2024-08-17, $2600
+Paris-Toronto: 2024-08-03, $1200
+Paris-Toronto: 2024-08-11, $1250
+Paris-Toronto: 2024-08-19, $1300
+Paris-Berlin: 2024-08-05, $2000
+Paris-Berlin: 2024-08-13, $2050
+Paris-Berlin: 2024-08-21, $2100
+Paris-Seoul: 2024-08-02, $1900
+Paris-Seoul: 2024-08-10, $1950
+Paris-Seoul: 2024-08-18, $2000
+Paris-Istanbul: 2024-08-07, $2300
+Paris-Istanbul: 2024-08-15, $2350
+Paris-Istanbul: 2024-08-23, $2400
+Tokyo-New York: 2024-08-04, $2500
+Tokyo-New York: 2024-08-12, $2550
+Tokyo-New York: 2024-08-20, $2600
+Tokyo-Paris: 2024-08-06, $2300
+Tokyo-Paris: 2024-08-14, $2350
+Tokyo-Paris: 2024-08-22, $2400
+Tokyo-London: 2024-08-01, $2200
+Tokyo-London: 2024-08-09, $2250
+Tokyo-London: 2024-08-17, $2300
+Tokyo-Los Angeles: 2024-08-03, $2000
+Tokyo-Los Angeles: 2024-08-11, $2050
+Tokyo-Los Angeles: 2024-08-19, $2100
+Tokyo-Sydney: 2024-08-05, $1800
+Tokyo-Sydney: 2024-08-13, $1850
+Tokyo-Sydney: 2024-08-21, $1900
+Tokyo-Beijing: 2024-08-02, $1700
+Tokyo-Beijing: 2024-08-10, $1750
+Tokyo-Beijing: 2024-08-18, $1800
+Tokyo-Rome: 2024-08-07, $2400
+Tokyo-Rome: 2024-08-15, $2450
+Tokyo-Rome: 2024-08-23, $2500
+Tokyo-Dubai: 2024-08-04, $2100
+Tokyo-Dubai: 2024-08-12, $2150
+Tokyo-Dubai: 2024-08-20, $2200
+Tokyo-Moscow: 2024-08-06, $1900
+Tokyo-Moscow: 2024-08-14, $1950
+Tokyo-Moscow: 2024-08-22, $2000
+Tokyo-Singapore: 2024-08-01, $1600
+Tokyo-Singapore: 2024-08-09, $1650
+Tokyo-Singapore: 2024-08-17, $1700
+Tokyo-Toronto: 2024-08-03, $2200
+Tokyo-Toronto: 2024-08-11, $2250
+Tokyo-Toronto: 2024-08-19, $2300
+Tokyo-Berlin: 2024-08-05, $2350
+Tokyo-Berlin: 2024-08-13, $2400
+Tokyo-Berlin: 2024-08-21, $2450
+Tokyo-Seoul: 2024-08-02, $1500
+Tokyo-Seoul: 2024-08-10, $1550
+Tokyo-Seoul: 2024-08-18, $1600
+Tokyo-Istanbul: 2024-08-07, $2350
+Tokyo-Istanbul: 2024-08-15, $2400
+Tokyo-Istanbul: 2024-08-23, $2450
+London-New York: 2024-08-04, $1500
+London-New York: 2024-08-12, $1550
+London-New York: 2024-08-20, $1600
+London-Paris: 2024-08-06, $200
+London-Paris: 2024-08-14, $250
+London-Paris: 2024-08-22, $300
+London-Tokyo: 2024-08-01, $2200
+London-Tokyo: 2024-08-09, $2250
+London-Tokyo: 2024-08-17, $2300
+London-Los Angeles: 2024-08-03, $800
+London-Los Angeles: 2024-08-11, $850
+London-Los Angeles: 2024-08-19, $900
+London-Sydney: 2024-08-05, $1800
+London-Sydney: 2024-08-13, $1850
+London-Sydney: 2024-08-21, $1900
+London-Beijing: 2024-08-02, $1000
+London-Beijing: 2024-08-10, $1050
+London-Beijing: 2024-08-18, $1100
+London-Rome: 2024-08-07, $700
+London-Rome: 2024-08-15, $750
+London-Rome: 2024-08-23, $800
+London-Dubai: 2024-08-04, $600
+London-Dubai: 2024-08-12, $650
+London-Dubai: 2024-08-20, $700
+London-Moscow: 2024-08-06, $500
+London-Moscow: 2024-08-14, $550
+London-Moscow: 2024-08-22, $600
+London-Singapore: 2024-08-01, $1600
+London-Singapore: 2024-08-09, $1650
+London-Singapore: 2024-08-17, $1700
+London-Toronto: 2024-08-03, $1400
+London-Toronto: 2024-08-11, $1450
+London-Toronto: 2024-08-19, $1500
+London-Berlin: 2024-08-05, $300
+London-Berlin: 2024-08-13, $350
+London-Berlin: 2024-08-21, $400
+London-Seoul: 2024-08-02, $1100
+London-Seoul: 2024-08-10, $1150
+London-Seoul: 2024-08-18, $1200
+London-Istanbul: 2024-08-07, $800
+London-Istanbul: 2024-08-15, $850
+London-Istanbul: 2024-08-23, $900
+Los Angeles-New York: 2024-08-04, $1200
+Los Angeles-New York: 2024-08-12, $1250
+Los Angeles-New York: 2024-08-20, $1300
+Los Angeles-Paris: 2024-08-06, $1700
+Los Angeles-Paris: 2024-08-14, $1750
+Los Angeles-Paris: 2024-08-22, $1800
+Los Angeles-Tokyo: 2024-08-01, $2000
+Los Angeles-Tokyo: 2024-08-09, $2050
+Los Angeles-Tokyo: 2024-08-17, $2100
+Los Angeles-London: 2024-08-03, $800
+Los Angeles-London: 2024-08-11, $850
+Los Angeles-London: 2024-08-19, $900
+Los Angeles-Sydney: 2024-08-05, $1500
+Los Angeles-Sydney: 2024-08-13, $1550
+Los Angeles-Sydney: 2024-08-21, $1600
+Los Angeles-Beijing: 2024-08-02, $1400
+Los Angeles-Beijing: 2024-08-10, $1450
+Los Angeles-Beijing: 2024-08-18, $1500
+Los Angeles-Rome: 2024-08-07, $1100
+Los Angeles-Rome: 2024-08-15, $1150
+Los Angeles-Rome: 2024-08-23, $1200
+Los Angeles-Dubai: 2024-08-04, $1300
+Los Angeles-Dubai: 2024-08-12, $1350
+Los Angeles-Dubai: 2024-08-20, $1400
+Los Angeles-Moscow: 2024-08-06, $1600
+Los Angeles-Moscow: 2024-08-14, $1650
+Los Angeles-Moscow: 2024-08-22, $1700
+Los Angeles-Singapore: 2024-08-01, $1800
+Los Angeles-Singapore: 2024-08-09, $1850
+Los Angeles-Singapore: 2024-08-17, $1900
+Los Angeles-Toronto: 2024-08-03, $700
+Los Angeles-Toronto: 2024-08-11, $750
+Los Angeles-Toronto: 2024-08-19, $800
+Los Angeles-Berlin: 2024-08-05, $1900
+Los Angeles-Berlin: 2024-08-13, $1950
+Los Angeles-Berlin: 2024-08-21, $2000
+Los Angeles-Seoul: 2024-08-02, $1200
+Los Angeles-Seoul: 2024-08-10, $1250
+Los Angeles-Seoul: 2024-08-18, $1300
+Los Angeles-Istanbul: 2024-08-07, $1000
+Los Angeles-Istanbul: 2024-08-15, $1050
+Los Angeles-Istanbul: 2024-08-23, $1100
+Sydney-New York: 2024-08-04, $2800
+Sydney-New York: 2024-08-12, $2850
+Sydney-New York: 2024-08-20, $2900
+Sydney-Paris: 2024-08-06, $2500
+Sydney-Paris: 2024-08-14, $2550
+Sydney-Paris: 2024-08-22, $2600
+Sydney-Tokyo: 2024-08-01, $1900
+Sydney-Tokyo: 2024-08-09, $1950
+Sydney-Tokyo: 2024-08-17, $2000
+Sydney-London: 2024-08-03, $2000
+Sydney-London: 2024-08-11, $2050
+Sydney-London: 2024-08-19, $2100
+Sydney-Los Angeles: 2024-08-05, $1500
+Sydney-Los Angeles: 2024-08-13, $1550
+Sydney-Los Angeles: 2024-08-21, $1600
+Sydney-Beijing: 2024-08-02, $2200
+Sydney-Beijing: 2024-08-10, $2250
+Sydney-Beijing: 2024-08-18, $2300
+Sydney-Rome: 2024-08-07, $2600
+Sydney-Rome: 2024-08-15, $2650
+Sydney-Rome: 2024-08-23, $2700
+Sydney-Dubai: 2024-08-04, $2100
+Sydney-Dubai: 2024-08-12, $2150
+Sydney-Dubai: 2024-08-20, $2200
+Sydney-Moscow: 2024-08-06, $2400
+Sydney-Moscow: 2024-08-14, $2450
+Sydney-Moscow: 2024-08-22, $2500
+Sydney-Singapore: 2024-08-01, $1800
+Sydney-Singapore: 2024-08-09, $1850
+Sydney-Singapore: 2024-08-17, $1900
+Sydney-Toronto: 2024-08-03, $2700
+Sydney-Toronto: 2024-08-11, $2750
+Sydney-Toronto: 2024-08-19, $2800
+Sydney-Berlin: 2024-08-05, $2400
+Sydney-Berlin: 2024-08-13, $2450
+Sydney-Berlin: 2024-08-21, $2500
+Sydney-Seoul: 2024-08-02, $2000
+Sydney-Seoul: 2024-08-10, $2050
+Sydney-Seoul: 2024-08-18, $2100
+Sydney-Istanbul: 2024-08-07, $2500
+Sydney-Istanbul: 2024-08-15, $2550
+Sydney-Istanbul: 2024-08-23, $2600
+Beijing-New York: 2024-08-04, $2200
+Beijing-New York: 2024-08-12, $2250
+Beijing-New York: 2024-08-20, $2300
+Beijing-Paris: 2024-08-06, $1800
+Beijing-Paris: 2024-08-14, $1850
+Beijing-Paris: 2024-08-22, $1900
+Beijing-Tokyo: 2024-08-01, $1700
+Beijing-Tokyo: 2024-08-09, $1750
+Beijing-Tokyo: 2024-08-17, $1800
+Beijing-London: 2024-08-03, $1000
+Beijing-London: 2024-08-11, $1050
+Beijing-London: 2024-08-19, $1100
+Beijing-Los Angeles: 2024-08-05, $1400
+Beijing-Los Angeles: 2024-08-13, $1450
+Beijing-Los Angeles: 2024-08-21, $1500
+Beijing-Sydney: 2024-08-02, $2200
+Beijing-Sydney: 2024-08-10, $2250
+Beijing-Sydney: 2024-08-18, $2300
+Beijing-Rome: 2024-08-07, $2000
+Beijing-Rome: 2024-08-15, $2050
+Beijing-Rome: 2024-08-23, $2100
+Beijing-Dubai: 2024-08-04, $1800
+Beijing-Dubai: 2024-08-12, $1850
+Beijing-Dubai: 2024-08-20, $1900
+Beijing-Moscow: 2024-08-06, $1600
+Beijing-Moscow: 2024-08-14, $1650
+Beijing-Moscow: 2024-08-22, $1700
+Beijing-Singapore: 2024-08-01, $1500
+Beijing-Singapore: 2024-08-09, $1550
+Beijing-Singapore: 2024-08-17, $1600
+Beijing-Toronto: 2024-08-03, $2000
+Beijing-Toronto: 2024-08-11, $2050
+Beijing-Toronto: 2024-08-19, $2100
+Beijing-Berlin: 2024-08-05, $1900
+Beijing-Berlin: 2024-08-13, $1950
+Beijing-Berlin: 2024-08-21, $2000
+Beijing-Seoul: 2024-08-02, $1200
+Beijing-Seoul: 2024-08-10, $1250
+Beijing-Seoul: 2024-08-18, $1300
+Beijing-Istanbul: 2024-08-07, $1800
+Beijing-Istanbul: 2024-08-15, $1850
+Beijing-Istanbul: 2024-08-23, $1900
+Rome-New York: 2024-08-04, $1900
+Rome-New York: 2024-08-12, $1950
+Rome-New York: 2024-08-20, $2000
+Rome-Paris: 2024-08-06, $1500
+Rome-Paris: 2024-08-14, $1550
+Rome-Paris: 2024-08-22, $1600
+Rome-Tokyo: 2024-08-01, $2400
+Rome-Tokyo: 2024-08-09, $2450
+Rome-Tokyo: 2024-08-17, $2500
+Rome-London: 2024-08-03, $700
+Rome-London: 2024-08-11, $750
+Rome-London: 2024-08-19, $800
+Rome-Los Angeles: 2024-08-05, $1100
+Rome-Los Angeles: 2024-08-13, $1150
+Rome-Los Angeles: 2024-08-21, $1200
+Rome-Sydney: 2024-08-02, $2600
+Rome-Sydney: 2024-08-10, $2650
+Rome-Sydney: 2024-08-18, $2700
+Rome-Beijing: 2024-08-07, $2000
+Rome-Beijing: 2024-08-15, $2050
+Rome-Beijing: 2024-08-23, $2100
+Rome-Dubai: 2024-08-04, $2100
+Rome-Dubai: 2024-08-12, $2150
+Rome-Dubai: 2024-08-20, $2200
+Rome-Moscow: 2024-08-06, $1800
+Rome-Moscow: 2024-08-14, $1850
+Rome-Moscow: 2024-08-22, $1900
+Rome-Singapore: 2024-08-01, $2300
+Rome-Singapore: 2024-08-09, $2350
+Rome-Singapore: 2024-08-17, $2400
+Rome-Toronto: 2024-08-03, $2000
+Rome-Toronto: 2024-08-11, $2050
+Rome-Toronto: 2024-08-19, $2100
+Rome-Berlin: 2024-08-05, $1500
+Rome-Berlin: 2024-08-13, $1550
+Rome-Berlin: 2024-08-21, $1600
+Rome-Seoul: 2024-08-02, $2200
+Rome-Seoul: 2024-08-10, $2250
+Rome-Seoul: 2024-08-18, $2300
+Rome-Istanbul: 2024-08-07, $1700
+Rome-Istanbul: 2024-08-15, $1750
+Rome-Istanbul: 2024-08-23, $1800
+Dubai-New York: 2024-08-04, $2000
+Dubai-New York: 2024-08-12, $2050
+Dubai-New York: 2024-08-20, $2100
+Dubai-Paris: 2024-08-06, $1600
+Dubai-Paris: 2024-08-14, $1650
+Dubai-Paris: 2024-08-22, $1700
+Dubai-Tokyo: 2024-08-01, $2200
+Dubai-Tokyo: 2024-08-09, $2250
+Dubai-Tokyo: 2024-08-17, $2300
+Dubai-London: 2024-08-03, $600
+Dubai-London: 2024-08-11, $650
+Dubai-London: 2024-08-19, $700
+Dubai-Los Angeles: 2024-08-05, $1300
+Dubai-Los Angeles: 2024-08-13, $1350
+Dubai-Los Angeles: 2024-08-21, $1400
+Dubai-Sydney: 2024-08-02, $2100
+Dubai-Sydney: 2024-08-10, $2150
+Dubai-Sydney: 2024-08-18, $2200
+Dubai-Beijing: 2024-08-07, $1800
+Dubai-Beijing: 2024-08-15, $1850
+Dubai-Beijing: 2024-08-23, $1900
+Dubai-Rome: 2024-08-04, $2100
+Dubai-Rome: 2024-08-12, $2150
+Dubai-Rome: 2024-08-20, $2200
+Dubai-Moscow: 2024-08-06, $1400
+Dubai-Moscow: 2024-08-14, $1450
+Dubai-Moscow: 2024-08-22, $1500
+Dubai-Singapore: 2024-08-01, $1700
+Dubai-Singapore: 2024-08-09, $1750
+Dubai-Singapore: 2024-08-17, $1800
+Dubai-Toronto: 2024-08-03, $1900
+Dubai-Toronto: 2024-08-11, $1950
+Dubai-Toronto: 2024-08-19, $2000
+Dubai-Berlin: 2024-08-05, $1200
+Dubai-Berlin: 2024-08-13, $1250
+Dubai-Berlin: 2024-08-21, $1300
+Dubai-Seoul: 2024-08-02, $2000
+Dubai-Seoul: 2024-08-10, $2050
+Dubai-Seoul: 2024-08-18, $2100
+Dubai-Istanbul: 2024-08-07, $1600
+Dubai-Istanbul: 2024-08-15, $1650
+Dubai-Istanbul: 2024-08-23, $1700
+Moscow-New York: 2024-08-04, $1800
+Moscow-New York: 2024-08-12, $1850
+Moscow-New York: 2024-08-20, $1900
+Moscow-Paris: 2024-08-06, $1400
+Moscow-Paris: 2024-08-14, $1450
+Moscow-Paris: 2024-08-22, $1500
+Moscow-Tokyo: 2024-08-01, $1900
+Moscow-Tokyo: 2024-08-09, $1950
+Moscow-Tokyo: 2024-08-17, $2000
+Moscow-London: 2024-08-03, $500
+Moscow-London: 2024-08-11, $550
+Moscow-London: 2024-08-19, $600
+Moscow-Los Angeles: 2024-08-05, $1600
+Moscow-Los Angeles: 2024-08-13, $1650
+Moscow-Los Angeles: 2024-08-21, $1700
+Moscow-Sydney: 2024-08-02, $2400
+Moscow-Sydney: 2024-08-10, $2450
+Moscow-Sydney: 2024-08-18, $2500
+Moscow-Beijing: 2024-08-07, $1600
+Moscow-Beijing: 2024-08-15, $1650
+Moscow-Beijing: 2024-08-23, $1700
+Moscow-Rome: 2024-08-04, $1800
+Moscow-Rome: 2024-08-12, $1850
+Moscow-Rome: 2024-08-20, $1900
+Moscow-Dubai: 2024-08-06, $1400
+Moscow-Dubai: 2024-08-14, $1450
+Moscow-Dubai: 2024-08-22, $1500
+Moscow-Singapore: 2024-08-01, $2200
+Moscow-Singapore: 2024-08-09, $2250
+Moscow-Singapore: 2024-08-17, $2300
+Moscow-Toronto: 2024-08-03, $1700
+Moscow-Toronto: 2024-08-11, $1750
+Moscow-Toronto: 2024-08-19, $1800
+Moscow-Berlin: 2024-08-05, $900
+Moscow-Berlin: 2024-08-13, $950
+Moscow-Berlin: 2024-08-21, $1000
+Moscow-Seoul: 2024-08-02, $1300
+Moscow-Seoul: 2024-08-10, $1350
+Moscow-Seoul: 2024-08-18, $1400
+Moscow-Istanbul: 2024-08-07, $1300
+Moscow-Istanbul: 2024-08-15, $1350
+Moscow-Istanbul: 2024-08-23, $1400
+Singapore-New York: 2024-08-04, $3000
+Singapore-New York: 2024-08-12, $3050
+Singapore-New York: 2024-08-20, $3100
+Singapore-Paris: 2024-08-06, $2600
+Singapore-Paris: 2024-08-14, $2650
+Singapore-Paris: 2024-08-22, $2700
+Singapore-Tokyo: 2024-08-01, $2200
+Singapore-Tokyo: 2024-08-09, $2250
+Singapore-Tokyo: 2024-08-17, $2300
+Singapore-London: 2024-08-03, $1600
+Singapore-London: 2024-08-11, $1650
+Singapore-London: 2024-08-19, $1700
+Singapore-Los Angeles: 2024-08-05, $2800
+Singapore-Los Angeles: 2024-08-13, $2850
+Singapore-Los Angeles: 2024-08-21, $2900
+Singapore-Sydney: 2024-08-02, $2000
+Singapore-Sydney: 2024-08-10, $2050
+Singapore-Sydney: 2024-08-18, $2100
+Singapore-Beijing: 2024-08-07, $2500
+Singapore-Beijing: 2024-08-15, $2550
+Singapore-Beijing: 2024-08-23, $2600
+Singapore-Rome: 2024-08-04, $2300
+Singapore-Rome: 2024-08-12, $2350
+Singapore-Rome: 2024-08-20, $2400
+Singapore-Dubai: 2024-08-06, $1900
+Singapore-Dubai: 2024-08-14, $1950
+Singapore-Dubai: 2024-08-22, $2000
+Singapore-Moscow: 2024-08-05, $2700
+Singapore-Moscow: 2024-08-13, $2750
+Singapore-Moscow: 2024-08-21, $2800
+Singapore-Toronto: 2024-08-01, $2900
+Singapore-Toronto: 2024-08-09, $2950
+Singapore-Toronto: 2024-08-17, $3000
+Singapore-Berlin: 2024-08-03, $2200
+Singapore-Berlin: 2024-08-11, $2250
+Singapore-Berlin: 2024-08-19, $2300
+Singapore-Seoul: 2024-08-02, $1500
+Singapore-Seoul: 2024-08-10, $1550
+Singapore-Seoul: 2024-08-18, $1600
+Singapore-Istanbul: 2024-08-07, $2400
+Singapore-Istanbul: 2024-08-15, $2450
+Singapore-Istanbul: 2024-08-23, $2500
+Toronto-New York: 2024-08-04, $300
+Toronto-New York: 2024-08-12, $350
+Toronto-New York: 2024-08-20, $400
+Toronto-Paris: 2024-08-06, $2500
+Toronto-Paris: 2024-08-14, $2550
+Toronto-Paris: 2024-08-22, $2600
+Toronto-Tokyo: 2024-08-01, $2700
+Toronto-Tokyo: 2024-08-09, $2750
+Toronto-Tokyo: 2024-08-17, $2800
+Toronto-London: 2024-08-03, $1400
+Toronto-London: 2024-08-11, $1450
+Toronto-London: 2024-08-19, $1500
+Toronto-Los Angeles: 2024-08-05, $800
+Toronto-Los Angeles: 2024-08-13, $850
+Toronto-Los Angeles: 2024-08-21, $900
+Toronto-Sydney: 2024-08-02, $2700
+Toronto-Sydney: 2024-08-10, $2750
+Toronto-Sydney: 2024-08-18, $2800
+Toronto-Beijing: 2024-08-07, $2000
+Toronto-Beijing: 2024-08-15, $2050
+Toronto-Beijing: 2024-08-23, $2100
+Toronto-Rome: 2024-08-04, $2000
+Toronto-Rome: 2024-08-12, $2050
+Toronto-Rome: 2024-08-20, $2100
+Toronto-Dubai: 2024-08-06, $2500
+Toronto-Dubai: 2024-08-14, $2550
+Toronto-Dubai: 2024-08-22, $2600
+Toronto-Moscow: 2024-08-05, $1700
+Toronto-Moscow: 2024-08-13, $1750
+Toronto-Moscow: 2024-08-21, $1800
+Toronto-Singapore: 2024-08-01, $2900
+Toronto-Singapore: 2024-08-09, $2950
+Toronto-Singapore: 2024-08-17, $3000
+Toronto-Berlin: 2024-08-03, $2500
+Toronto-Berlin: 2024-08-11, $2550
+Toronto-Berlin: 2024-08-19, $2600
+Toronto-Seoul: 2024-08-02, $2400
+Toronto-Seoul: 2024-08-10, $2450
+Toronto-Seoul: 2024-08-18, $2500
+Toronto-Istanbul: 2024-08-07, $2300
+Toronto-Istanbul: 2024-08-15, $2350
+Toronto-Istanbul: 2024-08-23, $2400
+Berlin-New York: 2024-08-04, $900
+Berlin-New York: 2024-08-12, $950
+Berlin-New York: 2024-08-20, $1000
+Berlin-Paris: 2024-08-06, $400
+Berlin-Paris: 2024-08-14, $450
+Berlin-Paris: 2024-08-22, $500
+Berlin-Tokyo: 2024-08-01, $2600
+Berlin-Tokyo: 2024-08-09, $2650
+Berlin-Tokyo: 2024-08-17, $2700
+Berlin-London: 2024-08-03, $300
+Berlin-London: 2024-08-11, $350
+Berlin-London: 2024-08-19, $400
+Berlin-Los Angeles: 2024-08-05, $1900
+Berlin-Los Angeles: 2024-08-13, $1950
+Berlin-Los Angeles: 2024-08-21, $2000
+Berlin-Sydney: 2024-08-02, $2400
+Berlin-Sydney: 2024-08-10, $2450
+Berlin-Sydney: 2024-08-18, $2500
+Berlin-Beijing: 2024-08-07, $1900
+Berlin-Beijing: 2024-08-15, $1950
+Berlin-Beijing: 2024-08-23, $2000
+Berlin-Rome: 2024-08-04, $1500
+Berlin-Rome: 2024-08-12, $1550
+Berlin-Rome: 2024-08-20, $1600
+Berlin-Dubai: 2024-08-06, $1200
+Berlin-Dubai: 2024-08-14, $1250
+Berlin-Dubai: 2024-08-22, $1300
+Berlin-Moscow: 2024-08-05, $900
+Berlin-Moscow: 2024-08-13, $950
+Berlin-Moscow: 2024-08-21, $1000
+Berlin-Singapore: 2024-08-01, $2200
+Berlin-Singapore: 2024-08-09, $2250
+Berlin-Singapore: 2024-08-17, $2300
+Berlin-Toronto: 2024-08-03, $2500
+Berlin-Toronto: 2024-08-11, $2550
+Berlin-Toronto: 2024-08-19, $2600
+Berlin-Seoul: 2024-08-02, $2000
+Berlin-Seoul: 2024-08-10, $2050
+Berlin-Seoul: 2024-08-18, $2100
+Berlin-Istanbul: 2024-08-07, $1500
+Berlin-Istanbul: 2024-08-15, $1550
+Berlin-Istanbul: 2024-08-23, $1600
+Seoul-New York: 2024-08-04, $2300
+Seoul-New York: 2024-08-12, $2350
+Seoul-New York: 2024-08-20, $2400
+Seoul-Paris: 2024-08-06, $1900
+Seoul-Paris: 2024-08-14, $1950
+Seoul-Paris: 2024-08-22, $2000
+Seoul-Tokyo: 2024-08-01, $1000
+Seoul-Tokyo: 2024-08-09, $1050
+Seoul-Tokyo: 2024-08-17, $1100
+Seoul-London: 2024-08-03, $2100
+Seoul-London: 2024-08-11, $2150
+Seoul-London: 2024-08-19, $2200
+Seoul-Los Angeles: 2024-08-05, $1800
+Seoul-Los Angeles: 2024-08-13, $1850
+Seoul-Los Angeles: 2024-08-21, $1900
+Seoul-Sydney: 2024-08-02, $1500
+Seoul-Sydney: 2024-08-10, $1550
+Seoul-Sydney: 2024-08-18, $1600
+Seoul-Beijing: 2024-08-07, $1200
+Seoul-Beijing: 2024-08-15, $1250
+Seoul-Beijing: 2024-08-23, $1300
+Seoul-Rome: 2024-08-04, $2200
+Seoul-Rome: 2024-08-12, $2250
+Seoul-Rome: 2024-08-20, $2300
+Seoul-Dubai: 2024-08-06, $1700
+Seoul-Dubai: 2024-08-14, $1750
+Seoul-Dubai: 2024-08-22, $1800
+Seoul-Moscow: 2024-08-05, $1600
+Seoul-Moscow: 2024-08-13, $1650
+Seoul-Moscow: 2024-08-21, $1700
+Seoul-Singapore: 2024-08-01, $1500
+Seoul-Singapore: 2024-08-09, $1550
+Seoul-Singapore: 2024-08-17, $1600
+Seoul-Toronto: 2024-08-03, $2400
+Seoul-Toronto: 2024-08-11, $2450
+Seoul-Toronto: 2024-08-19, $2500
+Seoul-Berlin: 2024-08-05, $2100
+Seoul-Berlin: 2024-08-13, $2150
+Seoul-Berlin: 2024-08-21, $2200
+Seoul-Istanbul: 2024-08-02, $2000
+Seoul-Istanbul: 2024-08-10, $2050
+Seoul-Istanbul: 2024-08-18, $2100
+Istanbul-New York: 2024-08-04, $2200
+Istanbul-New York: 2024-08-12, $2250
+Istanbul-New York: 2024-08-20, $2300
+Istanbul-Paris: 2024-08-06, $1800
+Istanbul-Paris: 2024-08-14, $1850
+Istanbul-Paris: 2024-08-22, $1900
+Istanbul-Tokyo: 2024-08-01, $2700
+Istanbul-Tokyo: 2024-08-09, $2750
+Istanbul-Tokyo: 2024-08-17, $2800
+Istanbul-London: 2024-08-03, $1200
+Istanbul-London: 2024-08-11, $1250
+Istanbul-London: 2024-08-19, $1300
+Istanbul-Los Angeles: 2024-08-05, $2000
+Istanbul-Los Angeles: 2024-08-13, $2050
+Istanbul-Los Angeles: 2024-08-21, $2100
+Istanbul-Sydney: 2024-08-02, $2800
+Istanbul-Sydney: 2024-08-10, $2850
+Istanbul-Sydney: 2024-08-18, $2900
+Istanbul-Beijing: 2024-08-07, $1900
+Istanbul-Beijing: 2024-08-15, $1950
+Istanbul-Beijing: 2024-08-23, $2000
+Istanbul-Rome: 2024-08-04, $1700
+Istanbul-Rome: 2024-08-12, $1750
+Istanbul-Rome: 2024-08-20, $1800
+Istanbul-Dubai: 2024-08-06, $1300
+Istanbul-Dubai: 2024-08-14, $1350
+Istanbul-Dubai: 2024-08-22, $1400
+Istanbul-Moscow: 2024-08-05, $1600
+Istanbul-Moscow: 2024-08-13, $1650
+Istanbul-Moscow: 2024-08-21, $1700
+Istanbul-Singapore: 2024-08-01, $2500
+Istanbul-Singapore: 2024-08-09, $2550
+Istanbul-Singapore: 2024-08-17, $2600
+Istanbul-Toronto: 2024-08-03, $2300
+Istanbul-Toronto: 2024-08-11, $2350
+Istanbul-Toronto: 2024-08-19, $2400
+Istanbul-Berlin: 2024-08-05, $1300
+Istanbul-Berlin: 2024-08-13, $1350
+Istanbul-Berlin: 2024-08-21, $1400
+Istanbul-Seoul: 2024-08-02, $2200
+Istanbul-Seoul: 2024-08-10, $2250
+Istanbul-Seoul: 2024-08-18, $2300

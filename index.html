@@ -179,9 +179,7 @@
   <!-- JavaScript code for populating cities -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const timestamp = new Date().getTime(); // Generate a unique timestamp
-      const url = `flights.txt?cache=${timestamp}`; // Append cache buster parameter
-      fetch('flights.txt')
+      fetch(`flights.txt?${new Date().getTime()}`) // Cache buster
         .then(response => response.text())
         .then(data => {
           const cities = data.trim().split('\n');
@@ -203,9 +201,9 @@
       event.preventDefault();
       const from = document.getElementById('fromSelect').value;
       const to = document.getElementById('toSelect').value;
-      const date = ''; // Get the date from txt file
+      const date = ''; // Get date from txt file
       const price = ''; // Get price based on selected options
-      window.location.href = `booking.html?from=${from}&to=${to}&date=${date}&price=${price}&passengers=${passengers}`;
+      window.location.href = `booking.html?from=${from}&to=${to}&date=${date}&price=${price}`;
     });
   </script>
 </body>

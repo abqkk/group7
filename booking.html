@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,8 +20,8 @@
   </nav>
   <header class="section__container header__container">
     <h1 class="section__header">Flight Details</h1>
-  </header>
     <div id="flight-results" class="mt-5"></div>
+  </header>
 
   <footer class="text-center py-4">
     <div class="container">
@@ -31,28 +31,39 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      // Get URL parameters
-      const params = new URLSearchParams(window.location.search);
-      const from = params.get('from');
-      const to = params.get('to');
-      const date = params.get('date');
-      const price = params.get('price');
-      const passengers = params.get('passengers');
+<script>
+  $(document).ready(function() {
+    const params = new URLSearchParams(window.location.search);
+    const from = params.get('from');
+    const to = params.get('to');
 
-      // Display flight details
-      const flightResults = document.getElementById('flight-results');
-      flightResults.innerHTML = `
-        <h3>Flight Details</h3>
-        <p><strong>From:</strong> ${from}</p>
-        <p><strong>To:</strong> ${to}</p>
-        <p><strong>Date:</strong> ${date}</p>
-        <p><strong>Price:</strong> ${price}</p>
-        <p><strong>Passengers:</strong> ${passengers}</p>
-      `;
-    });
-  </script>
+    $('#flight-results').html(`<h2>From: ${from}</h2><h2>To: ${to}</h2>`);
+
+    fetch(`flight_details.txt?${new Date().getTime()}`) // Cache buster
+      .then(response => response.text())
+      .then(data => {
+        const details = data.trim().split('\n');
+        let flightDetails = '<h3>Flight Details</h3>';
+
+        details.forEach(detail => {
+          const [route, info] = detail.split(': ');
+          const [fromCity, toCity] = route.split('-');
+          const [date, price] = info.split(', ');
+
+          if (fromCity === from && toCity === to) {
+            flightDetails += `
+              <p><strong>From:</strong> ${fromCity}</p>
+              <p><strong>To:</strong> ${toCity}</p>
+              <p><strong>Date:</strong> ${date}</p>
+              <p><strong>Price:</strong> ${price}</p>
+            `;
+          }
+        });
+
+        $('#flight-results').append(flightDetails);
+      })
+      .catch(error => console.error('Error loading flight details:', error));
+  });
+</script>
 </body>
-
 </html>

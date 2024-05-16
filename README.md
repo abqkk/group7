@@ -18,6 +18,8 @@ To run the website locally, follow these steps:
 'git clone https://github.com/your-username/group7.git'
 
 2. Navigate to the project directory:
-cd group7
+cd group7-main
 
-3. Open the index.html file in your web browser.
+3. Open cmd (make sure you have python installed) and type python -m http.server to start a local server.
+   
+4. Enter 'http://localhost:8000/' or 'http://127.0.0.1:8000/' into your web browser

@@ -1,50 +1,74 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const flightSearchForm = document.getElementById('flight-search-form');
-  const flightResults = document.getElementById('flight-results');
-  const manageBookingForm = document.getElementById('manage-booking-form');
-  const bookingDetails = document.getElementById('booking-details');
+document.addEventListener('DOMContentLoaded', function() {
+  // Fetch and populate cities from flights.txt
+  fetch('flights.txt')
+    .then(response => response.text())
+    .then(data => {
+      const cities = data.trim().split('\n');
+      const fromSelect = document.getElementById('fromSelect'); // Corrected ID
+      const toSelect = document.getElementById('toSelect'); // Corrected ID
 
-  if (flightSearchForm) {
-    flightSearchForm.addEventListener('submit', async (event) => {
+      cities.forEach(city => {
+        const option = document.createElement('option');
+        option.text = city.trim(); // trim to remove any whitespace
+        fromSelect.add(option.cloneNode(true));
+        toSelect.add(option.cloneNode(true));
+      });
+    })
+    .catch(error => console.error('Error loading cities:', error));
+
+  // Handle form submission
+  const bookingForm = document.getElementById('bookingForm');
+  const searchButton = document.getElementById('searchButton');
+
+  if (bookingForm) {
+    bookingForm.addEventListener('submit', function(event) {
       event.preventDefault();
-      const from = document.getElementById('from').value;
-      const to = document.getElementById('to').value;
-      const date = document.getElementById('date').value;
-      const passengers = document.getElementById('passengers').value;
-
-      const response = await fetch(`http://localhost:3000/flights`);
-      const flights = await response.json();
-      flightResults.innerHTML = flights.map(flight => `
-        <div class="card mt-3">
-          <div class="card-body">
-            <h5 class="card-title">${flight.fromLocation} to ${flight.toLocation}</h5>
-            <p class="card-text">Departure: ${flight.departureTime} - Arrival: ${flight.arrivalTime}</p>
-            <p class="card-text">Price: $${flight.price}</p>
-            <button class="btn btn-primary">Book Now</button>
-          </div>
-        </div>
-      `).join('');
+      searchFlights();
     });
   }
 
-  if (manageBookingForm) {
-    manageBookingForm.addEventListener('submit', async (event) => {
+  if (searchButton) {
+    searchButton.addEventListener('click', function(event) {
       event.preventDefault();
-      const ticketNumber = document.getElementById('ticketNumber').value;
-      const lastName = document.getElementById('lastName').value;
-
-      const response = await fetch(`http://localhost:3000/bookings`);
-      const bookings = await response.json();
-      const booking = bookings.find(b => b.id === ticketNumber);
-      bookingDetails.innerHTML = booking ? `
-        <div class="card mt-3">
-          <div class="card-body">
-            <h5 class="card-title">Booking ID: ${booking.id}</h5>
-            <p class="card-text">Seat: ${booking.seatNumber}</p>
-            <p class="card-text">Payment Status: ${booking.paymentStatus}</p>
-          </div>
-        </div>
-      ` : '<p>No booking found</p>';
+      searchFlights();
     });
-  }
-});
+  });
+
+function searchFlights() {
+  const from = document.getElementById('fromSelect').value; // Corrected ID
+  const to = document.getElementById('toSelect').value; // Corrected ID
+
+  // Fetch flight details from flight_details.txt
+  fetch('flight_details.txt')
+    .then(response => response.text())
+    .then(data => {
+      const details = data.split('\n');
+      let flightDetails = '<h3>Flight Details</h3>';
+      let found = false;
+
+      details.forEach(detail => {
+        if (detail.trim()) { // Check if the line is not empty
+          const [route, info] = detail.split(': ');
+          const [fromCity, toCity] = route.split('-');
+          const [date, price] = info.split(', ');
+
+          if (fromCity === from && toCity === to) {
+            flightDetails += `
+              <p><strong>From:</strong> ${fromCity}</p>
+              <p><strong>To:</strong> ${toCity}</p>
+              <p><strong>Date:</strong> ${date}</p>
+              <p><strong>Price:</strong> ${price}</p>
+            `;
+            found = true;
+          }
+        }
+      });
+
+      if (!found) {
+        flightDetails += '<p>No flights found for selected route.</p>';
+      }
+
+      document.getElementById('flightDetails').innerHTML = flightDetails;
+    })
+    .catch(error => console.error('Error loading flight details:', error));
+}

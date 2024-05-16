@@ -2,3 +2,14 @@ New York
 Paris
 Tokyo
 London
+Los Angeles
+Sydney
+Beijing
+Rome
+Dubai
+Moscow
+Singapore
+Toronto
+Berlin
+Seoul
+Istanbul

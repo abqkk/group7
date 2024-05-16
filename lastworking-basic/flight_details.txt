@@ -1,0 +1,7 @@
+New York-Paris: 2024-06-01, $500
+New York-Paris: 2024-07-01, $500
+New York-Tokyo: 2024-06-03, $800
+New York-London: 2024-06-05, $600
+Paris-Tokyo: 2024-06-02, $700
+Paris-London: 2024-06-04, $400
+Tokyo-London: 2024-06-06, $1000

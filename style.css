@@ -38,6 +38,17 @@
   color: var(--text-dark);
 }
 
+#manage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Adjust the height as needed */
+}
+
+.container {
+  width: 80%; /* Adjust the width as needed */
+}
+
 .btn {
   padding: 0.75rem 2rem;
   outline: none;

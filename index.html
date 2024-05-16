@@ -19,7 +19,6 @@
   </nav>
   <header class="section__container header__container">
     <h1 class="section__header">Find And Book<br />A Great Experience</h1>
-    <img src="assets/header.jpg" alt="header" />
   </header>
 
   <section class="section__container booking__container">
@@ -35,8 +34,8 @@
           <div class="input__group">
             <h3>Select a Destination</h3>
             <select id="fromSelect">
-	    <option value="" selected disabled>Select</option>
-	    </select>
+              <option value="" selected disabled>Select</option>
+            </select>
           </div>
         </div>
       </div>
@@ -45,48 +44,16 @@
         <div class="input__content">
           <div class="input__group">
             <select id="toSelect">
-	    <option value="" selected disabled>Select</option>
-	    </select>
-            <h3>From</h3>
+              <option value="" selected disabled>Select</option>
+            </select>
+            <h3>To</h3>
           </div>
         </div>
       </div>
-      <a href="booking.html" class="btn"><i class="ri-search-line"></i></a>
+      <button type="submit" class="btn"><i class="ri-search-line"></i></button>
     </form>
   </section>
-
-<script>
-  console.log("Script is running...");
-  fetch('flights.txt')
-    .then(response => {
-      console.log("Response received:", response);
-      return response.text();
-    })
-    .then(data => {
-      console.log("Data received:", data);
-      const flights = data.split('\n');
-      const fromSelect = document.getElementById('fromSelect');
-      const toSelect = document.getElementById('toSelect');
-
-      flights.forEach(flight => {
-        const option = document.createElement('option');
-        option.text = flight;
-        fromSelect.add(option.cloneNode(true));
-        toSelect.add(option.cloneNode(true));
-      });
-    })
-    .catch(error => console.error('Error loading flights data:', error));
-  
-  const bookingForm = document.getElementById('bookingForm');
-  bookingForm.addEventListener('submit', function(event) {
-    event.preventDefault();
-    const from = document.getElementById('fromSelect').value;
-    const to = document.getElementById('toSelect').value;
-    console.log('Selected flight:', from, 'to', to);
-  });
-</script>
-  
-    <section class="memories">
+      <section class="memories">
       <div class="section__container memories__container">
         <div class="memories__header">
           <h2 class="section__header">
@@ -125,8 +92,8 @@
 
     <section class="section__container lounge__container">
       <div class="lounge__image">
-        <img src="assets/lounge-1.jpg" alt="lounge" />
-        <img src="assets/lounge-2.jpg" alt="lounge" />
+        <img src="lounge-1.jpg" alt="lounge" />
+        <img src="lounge-2.jpg" alt="lounge" />
       </div>
       <div class="lounge__content">
         <h2 class="section__header">Unaccompanied Minor Lounge</h2>
@@ -209,5 +176,35 @@
         </div>
       </div>
     </footer>
-  </body>
+  <!-- JavaScript code for populating cities -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('flights.txt')
+        .then(response => response.text())
+        .then(data => {
+          const cities = data.trim().split('\n');
+          const fromSelect = document.getElementById('fromSelect');
+          const toSelect = document.getElementById('toSelect');
+
+          cities.forEach(city => {
+            const option = document.createElement('option');
+            option.text = city.trim();
+            fromSelect.add(option.cloneNode(true));
+            toSelect.add(option.cloneNode(true));
+          });
+        })
+        .catch(error => console.error('Error loading cities:', error));
+    });
+
+    // Handle form submission
+    document.getElementById('bookingForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const from = document.getElementById('fromSelect').value;
+      const to = document.getElementById('toSelect').value;
+      const date = ''; // Get date from txt file
+      const price = ''; // Get price based on selected options
+      window.location.href = `booking.html?from=${from}&to=${to}&date=${date}&price=${price}&passengers=${passengers}`;
+    });
+  </script>
+</body>
 </html>

@@ -15,7 +15,7 @@ This repository contains the source code for the Fly Dream Airlines website, a f
 To run the website locally, follow these steps:
 
 1. Clone this repository to your local machine:
-'git clone https://github.com/your-username/group7.git'
+'git clone https://github.com/abqkk/group7.git'
 
 2. Navigate to the project directory:
 cd group7-main
